@@ -1,0 +1,81 @@
+/* Estilos para el cuerpo de la página */
+body {
+    background-color: #F7F7F7; /* Color principal (fondo) */
+    color: #333333; /* Color de texto principal */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h1 {
+    color: #007BFF; /* Color de acento (encabezado) */
+}
+
+/* Estilos para el formulario */
+#cityForm {
+    margin-bottom: 20px;
+}
+
+/* Estilos para el select */
+#citySelect {
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón */
+button {
+    background-color: #007BFF; /* Color de acento (botón) */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo de botón (hover) */
+}
+
+#temperatureChart {
+    max-width: 100%; 
+    height: auto; 
+}
+
+#weatherInfo {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+#loader {
+    margin-top: 0%; 
+}
+
+.loader {
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+}
